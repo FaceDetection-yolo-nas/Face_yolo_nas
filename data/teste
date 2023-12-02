@@ -1,0 +1,13 @@
+└── test/
+    ├── images/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    └── labels/
+        ├── image1.txt
+        ├── image2.txt
+        └── ...
+
+
+'test_images_dir':'/kaggle/input/face-detection-dataset/images/val',
+    'test_labels_dir':'/kaggle/input/face-detection-dataset/labels/val',
