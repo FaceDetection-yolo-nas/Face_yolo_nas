@@ -1,0 +1,8 @@
+torch==1.9.0
+matplotlib==3.3.4
+tqdm==4.57.0
+tensorboard==2.4.1
+super_gradients==3.5.0
+
+
+
