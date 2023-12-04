@@ -1,12 +1,15 @@
 
-### Porquê desse Problema
-Com a crescente integração de sistemas de reconhecimento facial, é vital aprimorar a detecção de rostos. Variações ambientais e diversidade facial podem comprometer a eficácia desses sistemas, afetando segurança e experiência do usuário.
+## Introdução
+O foco deste projeto é abordar a detecção de faces em imagens, uma tarefa crucial em diversas aplicações, como reconhecimento facial e análise de vídeos.
+
+## Problema e Justificativa
+Detectar rostos é essencial em muitos contextos, e a precisão nessa tarefa é fundamental. Este projeto busca criar um modelo de detecção de faces utilizando a arquitetura YOLO-NAS e avaliar seu desempenho.
 
 ## Objetivo Geral
-Desenvolver um modelo avançado de detecção facial utilizando a arquitetura "YOLO-NAS", aprimorando a precisão da detecção em condições variáveis.
+Desenvolver um modelo de detecção facial utilizando a arquitetura "YOLO-NAS", aprimorando a precisão da detecção em condições variáveis.
 
 ### Base de Dados
-O conjunto de dados usado é proveniente do Kaggle, fonte "fareselmenshawii/face-detection-dataset", contendo 3347 imagens de validação e 13386 imagens de treinamento. 
+O conjunto de dados usado é proveniente do Kaggle, fonte <https://www.kaggle.com/datasets/fareselmenshawii/face-detection-dataset>, contendo imagens para validação e imagens para treinamento. 
 
 ## Metodologia
 1. **Preparação dos Dados:** Organização e pré-processamento dos conjuntos de treinamento, validação e teste.
@@ -33,8 +36,8 @@ Baseada na arquitetura YOLO-NAS, inicializada com pesos pré-treinados do COCO, 
 ## Estrutura do Repositório
 - `data/`: Pasta contendo os dados utilizados no projeto.
 - `models/`: Implementação da arquitetura YOLO-NAS.
-- `notebooks/`: Notebooks Jupyter com diferentes etapas do projeto.
+- `notebooks/`: Notebooks colab com diferentes etapas do projeto.
 - `utils/`: Funções auxiliares para pré-processamento de dados e métricas de avaliação.
 - `requirements.txt`: Lista de dependências do projeto.
 
-Este projeto foi desenvolvido como parte do desafio do bootcamp de Machine Learning com foco em detecção facial utilizando a arquitetura YOLO-NAS. Para mais detalhes sobre cada etapa do processo, consulte os notebooks fornecidos.
+Este projeto foi desenvolvido como parte do desafio do bootcamp de Machine Learning com foco em detecção facial utilizando a arquitetura YOLO-NAS. Para mais detalhes sobre cada etapa do processo, consulte os notebooks fornecidos e nosso Wiki.
