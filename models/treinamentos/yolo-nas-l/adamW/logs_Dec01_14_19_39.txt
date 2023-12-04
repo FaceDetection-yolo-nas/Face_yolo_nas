@@ -1,1 +1,209 @@
+[2023-12-01 14:17:19] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2023-12-01 14:17:19] WARNING - super_gradients.training.utils.quantization - Failed to import pytorch_quantization
+[2023-12-01 14:17:19] INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+[2023-12-01 14:17:20] DEBUG - jaxlib.mlir._mlir_libs - Initializing MLIR with module: _site_initialize_0
+[2023-12-01 14:17:20] DEBUG - jaxlib.mlir._mlir_libs - Registering dialects from initializer <module 'jaxlib.mlir._mlir_libs._site_initialize_0' from '/usr/local/lib/python3.10/dist-packages/jaxlib/mlir/_mlir_libs/_site_initialize_0.so'>
+[2023-12-01 14:17:20] DEBUG - jax._src.path - etils.epath found. Using etils.epath for file I/O.
+[2023-12-01 14:17:24] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-12-01 14:17:24] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-12-01 14:17:24] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-12-01 14:17:24] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-12-01 14:17:24] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-12-01 14:17:25] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2023-12-01 14:17:26] DEBUG - super_gradients.modules - Failed to import pytorch_quantization: cannot import name 'Bottleneck' from partially initialized module 'super_gradients.training.models.classification_models.resnet' (most likely due to a circular import) (/usr/local/lib/python3.10/dist-packages/super_gradients/training/models/classification_models/resnet.py)
+[2023-12-01 14:17:26] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2023-12-01 14:17:26] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 14:17:26] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 14:17:27] WARNING - super_gradients.training.utils.quantization.calibrator - Failed to import pytorch_quantization
+[2023-12-01 14:17:27] WARNING - super_gradients.training.utils.quantization.export - Failed to import pytorch_quantization
+[2023-12-01 14:17:27] WARNING - super_gradients.training.utils.quantization.selective_quantization_utils - Failed to import pytorch_quantization
+[2023-12-01 14:17:27] DEBUG - super_gradients.training.sg_trainer.sg_trainer - Failed to import pytorch_quantization:
+[2023-12-01 14:17:27] DEBUG - super_gradients.training.sg_trainer.sg_trainer - name 'QuantizedMetadata' is not defined
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: boto3 required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: deprecated required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: coverage required but not found[0m
+[2023-12-01 14:17:27] DEBUG - super_gradients.sanity_check.env_sanity_check - sphinx==5.0.2 does not satisfy requirement sphinx~=4.0.2
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: sphinx-rtd-theme required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: torchmetrics required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: hydra-core required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: omegaconf required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: onnxruntime required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: onnx required but not found[0m
+[2023-12-01 14:17:27] DEBUG - super_gradients.sanity_check.env_sanity_check - pyparsing==3.1.1 does not satisfy requirement pyparsing==2.4.5
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: einops required but not found[0m
+[2023-12-01 14:17:27] DEBUG - super_gradients.sanity_check.env_sanity_check - pycocotools==2.0.7 does not satisfy requirement pycocotools==2.0.6
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: treelib required but not found[0m
+[2023-12-01 14:17:27] DEBUG - super_gradients.sanity_check.env_sanity_check - termcolor==2.3.0 does not satisfy requirement termcolor==1.1.0
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: stringcase required but not found[0m
+[2023-12-01 14:17:27] DEBUG - super_gradients.sanity_check.env_sanity_check - numpy==1.23.5 does not satisfy requirement numpy<=1.23
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: rapidfuzz required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: json-tricks required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: onnx-simplifier required but not found[0m
+[2023-12-01 14:17:27] WARNING - super_gradients.sanity_check.env_sanity_check - [31mFailed to verify installed packages: data-gradients required but not found[0m
+[2023-12-01 14:19:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 14:19:15] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1167 images are note associated to any label file
+[2023-12-01 14:19:15] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 2559 label files are not associated to any image.
+[2023-12-01 14:19:15] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 1113/2280 images and 1113/3672 label files will be used.
+[2023-12-01 14:19:15] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-12-01 14:19:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 14:19:16] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 792 label files are not associated to any image.
+[2023-12-01 14:19:16] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/humor-sans/Humor-Sans.ttf', name='Humor Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2023-12-01 14:19:16] DEBUG - matplotlib.font_manager - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+[2023-12-01 14:19:24] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 14:19:26] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-12-01 14:19:30] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded pretrained weights for architecture yolo_nas_l
+[2023-12-01 14:19:30] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: False. Model YoloNAS_L inherit HasPredict: True
+[2023-12-01 14:19:39] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20231201_141939_368261`
+[2023-12-01 14:19:39] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261
+[2023-12-01 14:19:39] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9999, 'decay_type': 'exp', 'beta': 15}
+[2023-12-01 14:19:42] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Full dataset size:            1113       (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         69         (len(train_loader))
+    - Gradient updates per epoch:   69         (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_L  (66.91M parameters, 66.91M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (66.91M parameters). LR: 0.0005 (66.91M parameters) WD: 0.0, (84.69K parameters), WD: 0.0001, (66.82M parameters)
 
+[2023-12-01 14:19:42] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 35 epochs (0/34)
+
+[2023-12-01 14:23:14] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:23:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3678904175758362
+[2023-12-01 14:26:57] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:26:57] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6027138829231262
+[2023-12-01 14:37:59] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:37:59] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7104568481445312
+[2023-12-01 14:41:54] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:41:54] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7335993647575378
+[2023-12-01 14:45:55] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:45:55] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7611671686172485
+[2023-12-01 14:50:14] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:50:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7833560109138489
+[2023-12-01 14:54:29] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:54:29] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7890532612800598
+[2023-12-01 14:59:14] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 14:59:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8023686408996582
+[2023-12-01 15:04:23] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:04:23] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8061634302139282
+[2023-12-01 15:09:55] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:09:55] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8117018342018127
+[2023-12-01 15:14:40] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:14:40] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8186148405075073
+[2023-12-01 15:19:34] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:19:34] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8199112415313721
+[2023-12-01 15:25:06] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:25:06] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8210734128952026
+[2023-12-01 15:30:28] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:30:28] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8252733945846558
+[2023-12-01 15:35:46] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:35:46] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8257073760032654
+[2023-12-01 15:41:04] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:41:04] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8262753486633301
+[2023-12-01 15:47:02] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:47:02] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8274666666984558
+[2023-12-01 15:52:29] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:52:29] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8274841904640198
+[2023-12-01 15:57:50] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 15:57:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8277149200439453
+[2023-12-01 16:03:02] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:03:02] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8279793858528137
+[2023-12-01 16:08:41] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:08:41] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.828524649143219
+[2023-12-01 16:14:20] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:14:20] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.829171359539032
+[2023-12-01 16:20:14] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:20:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8293629884719849
+[2023-12-01 16:25:36] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:25:36] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8299077749252319
+[2023-12-01 16:30:42] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:30:42] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8301162123680115
+[2023-12-01 16:40:39] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:40:39] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8306782245635986
+[2023-12-01 16:45:40] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:45:40] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.831010639667511
+[2023-12-01 16:50:46] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:50:46] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8317059874534607
+[2023-12-01 16:55:24] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_Adam/RUN_20231201_141939_368261/ckpt_best.pth
+[2023-12-01 16:55:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8319040536880493
+[2023-12-01 17:11:23] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2023-12-01 17:11:58] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
+[2023-12-01 17:11:58] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 17:20:29] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 17:20:29] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1167 images are note associated to any label file
+[2023-12-01 17:20:29] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 2559 label files are not associated to any image.
+[2023-12-01 17:20:29] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 1113/2280 images and 1113/3672 label files will be used.
+[2023-12-01 17:20:29] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-12-01 17:20:30] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 17:20:30] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 792 label files are not associated to any image.
+[2023-12-01 17:20:30] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2023-12-01 17:20:33] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-12-01 17:20:34] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-12-01 17:20:36] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded pretrained weights for architecture yolo_nas_l
+[2023-12-01 17:20:36] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: False. Model YoloNAS_L inherit HasPredict: True
+[2023-12-01 17:20:36] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20231201_172036_526363`
+[2023-12-01 17:20:36] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: /content/drive/MyDrive/Avanti_Bootcamp/Modelos_Lucas/Yolo_L_AdamW/RUN_20231201_172036_526363
