@@ -1,3 +1,4 @@
+<img src="/assets/capa.png">
 
 ## Introdução
 O foco deste projeto é abordar a detecção de faces em imagens, uma tarefa crucial em diversas aplicações, como reconhecimento facial e análise de vídeos.
