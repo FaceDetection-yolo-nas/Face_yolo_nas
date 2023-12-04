@@ -33,6 +33,8 @@ pip install -r requirements.txt
 
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
+
+  
 - Tabelas/figuras com métricas de avaliação por classe para segmentação e detecção/classificação.
 
 
@@ -53,4 +55,4 @@ Baseada na arquitetura YOLO-NAS, inicializada com pesos pré-treinados do COCO, 
 - `utils/`: Funções auxiliares para pré-processamento de dados e métricas de avaliação.
 - `requirements.txt`: Lista de dependências do projeto.
 
-Este projeto foi desenvolvido como parte do desafio do bootcamp de Machine Learning com foco em detecção facial utilizando a arquitetura YOLO-NAS. Para mais detalhes sobre cada etapa do processo, consulte os notebooks fornecidos e nosso Wiki.
+Este projeto foi desenvolvido como parte do desafio do bootcamp de Machine Learning com foco em detecção facial utilizando a arquitetura YOLO-NAS. Para mais detalhes sobre cada etapa do processo, consulte os notebooks fornecidos e nosso Wiki <https://github.com/FaceDetection-yolo-nas/Face_yolo_nas/wiki>.
