@@ -25,9 +25,11 @@ O conjunto de dados usado é proveniente do Kaggle, fonte <https://www.kaggle.co
 - PyTorch (criação e treinamento de modelos de aprendizado profundo)
 - Bibliotecas padrão (os, shutil, random, tqdm, torch)
 
-###Instalação
+### Instalação
 
-'''pip install -r requirements.txt'''
+'''
+pip install -r requirements.txt
+'''
 
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
