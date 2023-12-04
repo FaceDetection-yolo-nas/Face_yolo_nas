@@ -27,9 +27,9 @@ O conjunto de dados usado é proveniente do Kaggle, fonte <https://www.kaggle.co
 
 ### Instalação
 
-'''
+````
 pip install -r requirements.txt
-'''
+````
 
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
