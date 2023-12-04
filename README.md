@@ -46,6 +46,18 @@ Baseada na arquitetura YOLO-NAS, inicializada com pesos pré-treinados do COCO, 
 
 #### Parametros de treinamentos
 
+- taxa de aprendizado: CosineLRScheduler
+
+````
+from super_gradients import Trainer
+
+    training_params={"initial_lr": 5e-4, 
+    "lr_mode": "CosineLRScheduler",
+    "cosine_final_lr_ratio": 0.1, ...}, 
+    ...
+}
+````  
+
 - otimizadores: SGD , Adam , AdamW
 
 ````
@@ -56,6 +68,39 @@ from super_gradients import Trainer
 }
 ````
 
+- Média Móvel Exponencial ou EMA: "exp"
+
+````
+from super_gradients import Trainer
+
+    training_params={"ema_params": {"decay": 0.9999, "decay_type": "exp", "beta": 15}, ...}, 
+    ...
+}
+````
+
+- Métricas: DetectionMetrics_050
+
+````
+from super_gradients import Trainer
+
+    training_params={"valid_metrics_list": [
+        DetectionMetrics_050 (
+            score_thres=0.1,
+            top_k_predictions=300,
+            num_cls=len(dataset_params['classes']),
+            normalize_targets=True,
+            post_prediction_callback=PPYoloEPostPredictionCallback(
+                score_threshold=0.01,
+                nms_top_k=1000,
+                max_predictions=300,
+                nms_threshold=0.5, 
+            )
+        )
+    ],
+    "metric_to_watch": 'mAP@0.50
+}
+````
+  
 
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
