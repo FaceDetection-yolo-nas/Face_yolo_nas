@@ -34,6 +34,10 @@ pip install -r requirements.txt
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
 
+  <img src="/assets/imagem_tratada.png">
+
+  https://github.com/FaceDetection-yolo-nas/Face_yolo_nas/blob/main/assets/imagem_tratada.png
+
   
 - Tabelas/figuras com métricas de avaliação por classe para segmentação e detecção/classificação.
 
