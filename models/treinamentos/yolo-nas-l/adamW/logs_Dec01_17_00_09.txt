@@ -1,1 +1,157 @@
+[2023-12-01 15:42:05] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9999, 'decay_type': 'exp', 'beta': 15}
+[2023-12-01 15:42:14] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Full dataset size:            1113       (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         69         (len(train_loader))
+    - Gradient updates per epoch:   69         (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_L  (66.91M parameters, 66.91M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (66.91M parameters). LR: 0.005 (66.91M parameters) WD: 0.0, (84.69K parameters), WD: 0.0001, (66.82M parameters)
 
+[2023-12-01 15:42:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 20 epochs (0/19)
+
+[2023-12-01 15:45:34] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 15:45:34] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.004956637509167194
+[2023-12-01 15:49:15] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 15:49:15] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.07932494580745697
+[2023-12-01 15:52:47] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 15:52:47] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.2243732213973999
+[2023-12-01 15:56:04] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 15:56:04] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.30076679587364197
+[2023-12-01 15:59:30] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 15:59:30] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3171793520450592
+[2023-12-01 16:03:27] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:03:27] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3557308614253998
+[2023-12-01 16:07:07] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:07:07] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3889390528202057
+[2023-12-01 16:11:33] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:11:33] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.39420485496520996
+[2023-12-01 16:15:49] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:15:49] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3975469470024109
+[2023-12-01 16:19:41] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:19:41] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.4010973870754242
+[2023-12-01 16:24:07] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:24:07] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.40342840552330017
+[2023-12-01 16:33:55] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:33:55] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.40427255630493164
+[2023-12-01 16:38:51] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:38:51] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.4047122001647949
+[2023-12-01 16:43:06] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:43:06] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.40549591183662415
+[2023-12-01 16:48:32] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:48:32] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.4057348966598511
+[2023-12-01 16:53:11] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:53:11] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.40608400106430054
+[2023-12-01 16:57:08] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_154205_709709/ckpt_best.pth
+[2023-12-01 16:57:08] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.4070390462875366
+[2023-12-01 16:59:19] INFO - super_gradients.training.sg_trainer.sg_trainer - 
+[MODEL TRAINING EXECUTION HAS BEEN INTERRUPTED]... Please wait until SOFT-TERMINATION process finishes and saves all of the Model Checkpoints and log files before terminating...
+[2023-12-01 16:59:19] INFO - super_gradients.training.sg_trainer.sg_trainer - For HARD Termination - Stop the process again
+[2023-12-01 16:59:19] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
+[2023-12-01 16:59:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20231201_165950_607625`
+[2023-12-01 16:59:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_165950_607625
+[2023-12-01 16:59:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9999, 'decay_type': 'exp', 'beta': 15}
+[2023-12-01 16:59:58] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Full dataset size:            1113       (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         69         (len(train_loader))
+    - Gradient updates per epoch:   69         (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_L  (66.91M parameters, 66.91M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (66.91M parameters). LR: 0.0005 (66.91M parameters) WD: 0.0, (84.69K parameters), WD: 0.0001, (66.82M parameters)
+
+[2023-12-01 16:59:58] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 35 epochs (0/34)
+
+[2023-12-01 17:00:01] INFO - super_gradients.training.sg_trainer.sg_trainer - 
+[MODEL TRAINING EXECUTION HAS BEEN INTERRUPTED]... Please wait until SOFT-TERMINATION process finishes and saves all of the Model Checkpoints and log files before terminating...
+[2023-12-01 17:00:01] INFO - super_gradients.training.sg_trainer.sg_trainer - For HARD Termination - Stop the process again
+[2023-12-01 17:00:01] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
+[2023-12-01 17:00:09] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20231201_170009_787591`
+[2023-12-01 17:00:09] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591
+[2023-12-01 17:00:09] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9999, 'decay_type': 'exp', 'beta': 15}
+[2023-12-01 17:00:18] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Full dataset size:            1113       (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         69         (len(train_loader))
+    - Gradient updates per epoch:   69         (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_L  (66.91M parameters, 66.91M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (66.91M parameters). LR: 0.005 (66.91M parameters) WD: 0.0, (84.69K parameters), WD: 0.0001, (66.82M parameters)
+
+[2023-12-01 17:00:18] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 35 epochs (0/34)
+
+[2023-12-01 17:03:24] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:03:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.44004932045936584
+[2023-12-01 17:07:06] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:07:06] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.4683786928653717
+[2023-12-01 17:17:33] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:17:33] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.49631839990615845
+[2023-12-01 17:24:43] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:24:43] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5508866310119629
+[2023-12-01 17:28:27] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:28:27] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5616150498390198
+[2023-12-01 17:32:18] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:32:18] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5819841623306274
+[2023-12-01 17:36:21] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:36:21] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5825307369232178
+[2023-12-01 17:41:23] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:41:23] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5961858630180359
+[2023-12-01 17:45:24] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:45:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5963653922080994
+[2023-12-01 17:49:47] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:49:47] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6073116660118103
+[2023-12-01 17:53:59] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:53:59] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6115762591362
+[2023-12-01 17:58:40] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 17:58:40] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6141434907913208
+[2023-12-01 18:03:38] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:03:38] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6181685924530029
+[2023-12-01 18:08:01] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:08:01] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6195127367973328
+[2023-12-01 18:12:57] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:12:57] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6210867762565613
+[2023-12-01 18:17:38] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:17:38] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.621770977973938
+[2023-12-01 18:22:14] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:22:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6234045624732971
+[2023-12-01 18:26:29] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:26:29] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6240852475166321
+[2023-12-01 18:31:08] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:31:08] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6245191693305969
+[2023-12-01 18:35:41] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:35:41] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6256460547447205
+[2023-12-01 18:44:21] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:44:21] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.626955509185791
+[2023-12-01 18:58:48] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 18:58:48] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.627047598361969
+[2023-12-01 19:03:45] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:03:45] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6277855038642883
+[2023-12-01 19:08:23] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:08:23] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6280556917190552
+[2023-12-01 19:13:00] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:13:00] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6283175945281982
+[2023-12-01 19:17:27] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:17:27] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6285683512687683
+[2023-12-01 19:22:29] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:22:29] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.628923773765564
+[2023-12-01 19:27:37] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:27:37] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6289492845535278
+[2023-12-01 19:31:55] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/avantiDataReduc/kaggle/working/yolo_nas_face/RUN_20231201_170009_787591/ckpt_best.pth
+[2023-12-01 19:31:55] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6289992928504944
+[2023-12-01 19:33:18] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2023-12-01 19:33:48] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
