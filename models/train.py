@@ -41,10 +41,8 @@ train_params = {
 trainer = Trainer(experiment_name=EXPERIMENT_NAME, ckpt_root_dir=CHECKPOINT_DIR)
 
 
-try:
-    trainer.train(model=model,
+trainer.train(model=model,
               training_params=train_params,
               train_loader=train_data,
               valid_loader=val_data)
-except Exception as e:
-    print(f"Ocorreu um erro durante o treinamento: {e}")
+
