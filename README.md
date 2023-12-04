@@ -32,6 +32,18 @@ O conjunto de dados usado é proveniente do Kaggle, fonte <https://www.kaggle.co
 pip install -r requirements.txt
 ````
 
+### Componentes do Modelo
+#### Arquitetura do Modelo YOLO-NAS
+Baseada na arquitetura YOLO-NAS, inicializada com pesos pré-treinados do COCO, treinada para a detecção de "faces".
+
+#### Modelos implementados
+
+|   Modelo	     | Classe de modelo |	   Classe de Perda	 |    Retorno de chamada NMS       |    
+|--------------- |--------------    |-------------------   |----------------------           |
+|                |   Yolo-Nas-M     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |            
+|   YoloNAS      |   Yolo-Nas-S     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |            
+|                |   Yolo-Nas-L     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |    
+
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
 
@@ -48,10 +60,6 @@ pip install -r requirements.txt
 | Yolo-Nas-M     |                |               |            |
 | Yolo-Nas-S     |                |               |            |
 | Yolo-Nas-L     |                |               |            |
-
-### Componentes do Modelo
-#### Arquitetura do Modelo YOLO-NAS
-Baseada na arquitetura YOLO-NAS, inicializada com pesos pré-treinados do COCO, treinada para a detecção de "faces".
 
 ## Estrutura do Repositório
 - `data/`: Pasta contendo os dados utilizados no projeto.
