@@ -42,7 +42,20 @@ Baseada na arquitetura YOLO-NAS, inicializada com pesos pré-treinados do COCO, 
 |--------------- |--------------    |-------------------   |----------------------           |
 |                |   Yolo-Nas-M     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |            
 |   YoloNAS      |   Yolo-Nas-S     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |            
-|                |   Yolo-Nas-L     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |    
+|                |   Yolo-Nas-L     |       PPYoloELoss    |  PPYoloEPostPredictionCallback  |  
+
+#### Parametros de treinamentos
+
+- otimizadores: SGD , Adam , AdamW
+
+````
+from super_gradients import Trainer
+
+    training_params={"optimizer": "Adam", "optimizer_params": {weight_decay:0001}, ...}, 
+    ...
+}
+````
+
 
 ## Ilustrações e Tabelas/Figuras
 - Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
