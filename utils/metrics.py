@@ -1,4 +1,4 @@
-
+'''
 train_params = {
 
   "loss": PPYoloELoss(
@@ -24,4 +24,4 @@ train_params = {
     ],
     "metric_to_watch": 'mAP@0.50'
 }
-
+'''
