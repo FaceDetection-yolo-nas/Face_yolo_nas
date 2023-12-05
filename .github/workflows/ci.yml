@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip
 
+      - name: Install flake8
+        run: python -m pip install flake8
+
       - name: Check Python syntax
         run: python -m compileall -f .
 
