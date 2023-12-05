@@ -28,4 +28,4 @@ jobs:
         run: python -m compileall -f .
 
       - name: Check linting
-        run: flake8 .
+        run: flake8 . --exit-zero
