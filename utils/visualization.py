@@ -1,3 +1,4 @@
+'''
 best_model = models.get(
     MODEL_ARCH,
     num_classes=len(dataset_params['classes']),
@@ -13,5 +14,4 @@ best_model.predict(img_1).show()
 
 img_2 = ""
 best_model.predict(img_2).show()
-
-
+'''
