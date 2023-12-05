@@ -38,7 +38,7 @@ jobs:
         run: flake8 . --exit-zero
       
       - name: Check code formatting with black
-        run: black --check
+        run: black --check .
 
       - name: Check type hints with mypy
         run: mypy .
