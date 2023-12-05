@@ -1,7 +1,5 @@
 '''
-train_params = 
-
-{
+train_params = {
     'silent_mode': False,
     "average_best_models":True,
     "warmup_mode": "LinearBatchLRWarmup",
@@ -18,7 +16,5 @@ train_params =
     "max_epochs": MAX_EPOCHS,
     "mixed_precision": True, ...
 ...
-
-
 }
 '''
