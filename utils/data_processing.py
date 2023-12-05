@@ -1,4 +1,4 @@
-
+'''
 dataset_params = {
     'data_dir':'/content/avantiDataReduc',
     'train_images_dir':'/content/avantiDataReduc/kaggle/input/face-detection-dataset/images/train',
@@ -48,3 +48,4 @@ test_data = coco_detection_yolo_format_val(
         'num_workers': 1
     }
 )
+'''
