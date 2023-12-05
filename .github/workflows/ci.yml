@@ -18,6 +18,14 @@ jobs:
         with:
           python-version: 3.x
 
+      - name: Debug Python Version
+        run: python --version
+
+      - name: Install PyTorch
+        run: |
+          python -m pip install https://download.pytorch.org/whl/cu102/torch-1.9.0%2Bcu102-cp39-cp39-linux_x86_64.whl
+          python -m pip install https://download.pytorch.org/whl/cu102/torchvision-0.10.0%2Bcu102-cp39-cp39-linux_x86_64.whl
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -32,3 +40,5 @@ jobs:
       - name: Check linting
         run: flake8 .
 
+      - name: Debug PyTorch Installation
+        run: python -c "import torch; print(torch.__version__)"
