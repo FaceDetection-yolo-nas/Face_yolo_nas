@@ -102,7 +102,7 @@ from super_gradients import Trainer
 ````
   
 
-## Ilustrações e Tabelas/Figuras
+## Tabelas e Imagem 
 - Resultado de uma imagem usada na detecção de face.
 
   <img src="/assets/imagem_tratada.png">
@@ -112,7 +112,8 @@ from super_gradients import Trainer
   
 - Tabela com métricas de avaliação por modelo e otimizador considerando 35 épocas de treinamento e validação.
 
-|                    **`#TREINAMENTO`**                     |                                  **`#VALIDAÇÃO`**                                    | 
+|                    **`TREINAMENTO`**                      |                                  **`VALIDAÇÃO`**                                     | 
+|---------------------------------------------------------- |-----------------------------------------------------------------------------         |
 |   `Modelo`     |  `Otimizador`  |`Classes de Perda (Loss)`|  `Precisão`      | `Recall`      | `F1-score` |   `MAP`   |`Classes de Perda (Loss)` |
 | ---------------|:-------------: | :--------------------:  | :---------------:| :------------:| :----------| :--------:| :------------------:     |
 |                |     AdamW      |       2.02              |      0.052       |    0.804      |  0.099     |  0.62     |    1.97                  |
