@@ -103,62 +103,29 @@ from super_gradients import Trainer
   
 
 ## Ilustrações e Tabelas/Figuras
-- Imagens ilustrativas dos processos de Mixup, Augmentation e HSV.
+- Resultado de uma imagem usada na detecção de face.
 
   <img src="/assets/imagem_tratada.png">
 
   https://github.com/FaceDetection-yolo-nas/Face_yolo_nas/blob/main/assets/imagem_tratada.png
 
   
-- Tabelas/figuras com métricas de avaliação por classe para segmentação e detecção/classificação.
+- Tabela com métricas de avaliação por modelo e otimizador considerando 35 épocas de treinamento e validação.
 
-
-|   `Modelo`     |  `Otimizador`  |`Classes de Perda`|  `Precisão`      | `Recall`      | `F1-score` |
-| ---------------|--------------  |----------------  |----------------- |-------------- |------------|
-|                |                |   loss:          |                  |               |            |
-!                |     AdamW      |   loss_cls:      |                  |               |            |
-|                |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|                |                |                  |                  |               |            |
-|                |                |   loss:          |                  |               |            |
-|                |      SDD       |   loss_cls:      |                  |               |            |
-|   Yolo-Nas-M   |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|                |                |                  |                  |               |            |
-|                |                |   loss:          |  1.675               |               |            |
-|                |     Adam       |   loss_cls:      |  0.73                |               |            |
-|                |                |   loss_iou:      |  0.46               |               |            |
-|                |                |   loss_dfl:      |  0.47                 |               |            |
-|------------    |------------    |------------      |------------      |------------   |---------   |
-|                |                |   loss:          |                  |               |            |
-!                |     AdamW      |   loss_cls:      |                  |               |            |
-|                |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|                |                |                  |                  |               |            |
-|                |                |   loss:          |                  |               |            |
-|                |      SDD       |   loss_cls:      |                  |               |            |
-|   Yolo-Nas-M   |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|                |                |                  |                  |               |            |
-|                |                |   loss:          |                  |               |            |
-|                |     Adam       |   loss_cls:      |                  |               |            |
-|                |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|------------    |------------    |------------      |------------      |------------   |---------   |
-|                |                |   loss:          |                  |               |            |
-|                |     AdamW      |   loss_cls:      |                  |               |            |
-|                |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|                |                |                  |                  |               |            |
-|                |                |   loss:          |                  |               |            |
-|                |      SDD       |   loss_cls:      |                  |               |            |
-|   Yolo-Nas-M   |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
-|                |                |                  |                  |               |            |
-|                |                |   loss:          |                  |               |            |
-|                |     Adam       |   loss_cls:      |                  |               |            |
-|                |                |   loss_iou:      |                  |               |            |
-|                |                |   loss_dfl:      |                  |               |            |
+|                    **`#TREINAMENTO`**                     |                                  **`#VALIDAÇÃO`**                                    | 
+|   `Modelo`     |  `Otimizador`  |`Classes de Perda (Loss)`|  `Precisão`      | `Recall`      | `F1-score` |   `MAP`   |`Classes de Perda (Loss)` |
+| ---------------|--------------  |--------------------     |----------------- |-------------- |------------|-----------|-------------------       |
+|                |     AdamW      |       2.02              |      0.052       |    0.804      |  0.099     |  0.62     |    1.97                  |
+|  Yolo-Nas-L    |     SDD        |       1.64              |      0.176       |    0.915      |  0.296     |  0.837    |    1.60                  |
+|                |     Adam       |       1.63              |      0.122       |    0.913      |  0.215     |  0.831    |    1.65                  |
+|                |                |                         |                  |               |            |
+!                |     AdamW      |       1.66              |      0.105       |    0.904      |  0.188     |  0.82     |    1.68                  |
+|  Yolo-Nas-M    |     SDD        |       1.65              |      0.167       |    0.912      |  0.282     |  0.83     |    1.59                  |
+|                |     Adam       |       1.67              |      0.109       |    0.903      |  0.194     |  0.81     |    1.69                  |
+|                |                |                         |                  |               |            |                                      |
+|                |     AdamW      |       1.64              |      0.1104      |    0.900      |  0.196     |  0.81     |    1.674                 |
+|  Yolo-Nas-S    |     SDD        |       1.73              |      0.108       |    0.893      |  0.192     |  0.80     |    1.692                 |
+|                |     Adam       |       1.65              |      0.1123      |    0.910      |  0.2       |  0.81     |    1.683                 |
 
 
 
