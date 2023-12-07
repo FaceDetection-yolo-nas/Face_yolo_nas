@@ -112,7 +112,7 @@ from super_gradients import Trainer
   
 - Tabela com métricas de avaliação por modelo e otimizador considerando 35 épocas de treinamento e validação.
 
-                    **`TREINAMENTO`**                                                        **`VALIDAÇÃO`**                                      
+                      `TREINAMENTO`                                                                `VALIDAÇÃO`                                      
 
 |   `Modelo`     |  `Otimizador`  |`Classes de Perda (Loss)`|  `Precisão`      | `Recall`      | `F1-score` |   `MAP`   |`Classes de Perda (Loss)` |
 | ---------------|:-------------: | :--------------------:  | :---------------:| :------------:| :---------:| :--------:| :------------------:     |
