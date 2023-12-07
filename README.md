@@ -113,11 +113,54 @@ from super_gradients import Trainer
 - Tabelas/figuras com métricas de avaliação por classe para segmentação e detecção/classificação.
 
 
-|   Modelo       | Precisão       | Recall        | F1-score   |
-| ---------------|--------------  |-------------  |----------- |
-| Yolo-Nas-M     |                |               |            |
-| Yolo-Nas-S     |                |               |            |
-| Yolo-Nas-L     |                |               |            |
+|   `Modelo`     |  `Otimizador`  |`Classes de Perda`|  `Precisão`      | `Recall`      | `F1-score` |
+| ---------------|--------------  |----------------  |----------------- |-------------- |------------|
+|                |                |   loss:          |                  |               |            |
+!                |     AdamW      |   loss_cls:      |                  |               |            |
+|                |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|                |                |                  |                  |               |            |
+|                |                |   loss:          |                  |               |            |
+|                |      SDD       |   loss_cls:      |                  |               |            |
+|   Yolo-Nas-M   |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|                |                |                  |                  |               |            |
+|                |                |   loss:          |  1.675               |               |            |
+|                |     Adam       |   loss_cls:      |  0.73                |               |            |
+|                |                |   loss_iou:      |  0.46               |               |            |
+|                |                |   loss_dfl:      |  0.47                 |               |            |
+|------------    |------------    |------------      |------------      |------------   |---------   |
+|                |                |   loss:          |                  |               |            |
+!                |     AdamW      |   loss_cls:      |                  |               |            |
+|                |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|                |                |                  |                  |               |            |
+|                |                |   loss:          |                  |               |            |
+|                |      SDD       |   loss_cls:      |                  |               |            |
+|   Yolo-Nas-M   |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|                |                |                  |                  |               |            |
+|                |                |   loss:          |                  |               |            |
+|                |     Adam       |   loss_cls:      |                  |               |            |
+|                |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|------------    |------------    |------------      |------------      |------------   |---------   |
+|                |                |   loss:          |                  |               |            |
+|                |     AdamW      |   loss_cls:      |                  |               |            |
+|                |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|                |                |                  |                  |               |            |
+|                |                |   loss:          |                  |               |            |
+|                |      SDD       |   loss_cls:      |                  |               |            |
+|   Yolo-Nas-M   |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+|                |                |                  |                  |               |            |
+|                |                |   loss:          |                  |               |            |
+|                |     Adam       |   loss_cls:      |                  |               |            |
+|                |                |   loss_iou:      |                  |               |            |
+|                |                |   loss_dfl:      |                  |               |            |
+
+
 
 ## Estrutura do Repositório
 - `data/`: Pasta contendo os dados utilizados no projeto.
