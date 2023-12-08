@@ -10,7 +10,7 @@ Detectar rostos é essencial em muitos contextos, e a precisão nessa tarefa é 
 Desenvolver um modelo de detecção facial utilizando a arquitetura "YOLO-NAS", aprimorando a precisão da detecção em condições variáveis.
 
 ### Base de Dados
-O conjunto de dados usado é proveniente do Kaggle, fonte <https://www.kaggle.com/datasets/fareselmenshawii/face-detection-dataset>, contendo imagens para validação e imagens para treinamento. 
+O conjunto de dados usado é proveniente do Kaggle, fonte [face-detection-dataset](<https://www.kaggle.com/datasets/fareselmenshawii/face-detection-dataset>), contendo imagens para validação e imagens para treinamento. 
 
 ## Metodologia
 1. **Preparação dos Dados:** Organização e pré-processamento dos conjuntos de treinamento, validação e teste.
