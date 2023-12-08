@@ -105,11 +105,8 @@ from super_gradients import Trainer
 ## Tabelas e Imagem 
 - Resultado de uma imagem usada na detecção de face.
 
-[imagem_tratada](<img src="/assets/imagem_tratada.png">)
+<img src="/assets/imagem_tratada.png">
 
-  https://github.com/FaceDetection-yolo-nas/Face_yolo_nas/blob/main/assets/imagem_tratada.png
-
-  
 - Tabela com métricas de avaliação por modelo e otimizador considerando 35 épocas de treinamento e validação.
                                       
 
